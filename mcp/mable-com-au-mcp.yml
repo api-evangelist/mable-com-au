@@ -1,0 +1,20 @@
+name: Mable MCP Server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: none
+description: >-
+  No official MCP server (hosted or local) was found for Mable. mable.com.au/.well-known/mcp.json and
+  /.well-known/mcp/server-card.json returned 404 on 2026-10-22, the site links no developer portal,
+  and a web search found no MCP server or public API. No candidate tool list was derived because the
+  repo holds no OpenAPI contract to derive from.
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+evidence:
+- url: https://mable.com.au/.well-known/mcp.json
+  status: 404
+- url: https://mable.com.au/.well-known/mcp/server-card.json
+  status: 404
+tools: []

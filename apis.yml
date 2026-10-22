@@ -1,23 +1,112 @@
 aid: mable-com-au
+
 name: Mable
-description: 'Mable is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Mable is an Australian online platform (mable.com.au) that connects people seeking disability (NDIS) and aged care support, including Support at Home and self-funded or out-of-hospital care, with verified independent support workers in their local community, letting clients search, book and build their own support team. Support workers, NDIS support coordinators and aged care managers also use the platform, which handles payments, support notes and safeguards. No public developer API or documentation was found on its site.
+
 url: https://raw.githubusercontent.com/api-evangelist/mable-com-au/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Aged Care
+- Disability Support
+- NDIS
+- Healthcare
+- Marketplace
+- Australia
+- Care Workers
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://res.cloudinary.com/Mable-EU/image/upload/c_crop,h_880,w_1173,x_103,y_0/c_scale,h_880,w_1173/aged-care-clay-workshop-1280x854-1_1_ouncob
+
 common:
+- type: Plans
+  url: plans/mable-com-au-plans-pricing.yml
+- type: Hosts
+  url: hosts/mable-com-au-hosts.yml
+- type: Vendors
+  url: vendors/mable-com-au-vendors.yml
+- type: SignUp
+  url: https://mable.com.au/discover/support-at-home/registered-supporter/
 - type: Website
   url: https://mable.com.au/
+- type: DomainSecurity
+  url: security/mable-com-au-domain-security.yml
+- type: HelpCenter
+  url: https://mable.com.au/help_centre/
+- type: FAQ
+  url: https://mable.com.au/faqs/
+- type: Support
+  url: https://mable.com.au/contact-us/
+- type: Pricing
+  url: https://mable.com.au/pricing/
+- type: Newsroom
+  url: https://mable.com.au/newsroom/
+- type: Legal
+  url: https://mable.com.au/legal/
+- type: TermsOfService
+  url: https://mable.com.au/legal/terms/site-terms/
+- type: PrivacyPolicy
+  url: https://mable.com.au/legal/policies/privacy-policy/
+- type: Leadership
+  url: https://mable.com.au/about-us/leadership-team/
+- type: Careers
+  url: https://mable.com.au/about-us/careers-at-mable/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mableaustralia/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website https://mable.com.au/ verified 200 (title "Find Local Support Workers for Disability and Aged Care | Mable"); all pointers found on the site and fetched 200 on 2026-10-22. No developer portal, API docs or GitHub org linked from the site. app.mable.com.au/login observed in nav but not fetched (auth endpoint, probe-safety rule).
+  evidence:
+  - url: https://mable.com.au/
+    status: 200
+  - url: https://mable.com.au/help_centre/
+    status: 200
+  - url: https://mable.com.au/faqs/
+    status: 200
+  - url: https://mable.com.au/contact-us/
+    status: 200
+  - url: https://mable.com.au/pricing/
+    status: 200
+  - url: https://mable.com.au/newsroom/
+    status: 200
+  - url: https://mable.com.au/legal/
+    status: 200
+  - url: https://mable.com.au/legal/terms/site-terms/
+    status: 200
+  - url: https://mable.com.au/legal/policies/privacy-policy/
+    status: 200
+  - url: https://mable.com.au/about-us/leadership-team/
+    status: 200
+  - url: https://mable.com.au/about-us/careers-at-mable/
+    status: 200
+  - url: https://www.linkedin.com/company/mableaustralia/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

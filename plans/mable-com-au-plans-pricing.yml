@@ -1,0 +1,30 @@
+name: Mable pricing
+generated: '2026-10-22'
+method: searched
+source: https://mable.com.au/pricing/
+audience: consumer
+pricing_basis: ad-valorem
+published: true
+currency: AUD
+delivery:
+  delivery: managed
+note: Mable publishes no developer API and no API pricing. This page is the platform fee schedule for clients booking independent support workers (a marketplace take rate on the agreed hourly rate), not API pricing. The page also shows indicative average hourly rates per service category (rendered from page data), which are market averages, not Mable prices, and are not recorded here.
+plans:
+- name: Client Platform Fee
+  description: Added to the agreed rate, paid to Mable.
+  price_text: 7.95% of the agreed rate
+  features:
+  - Added to the agreed rate
+  - Paid to Mable.
+- name: Support Engagement Fee
+  description: Deducted from the agreed rate (from the support worker), paid to Mable.
+  price_text: 10% of the agreed rate
+  features:
+  - Deducted from the agreed rate
+  - Paid to Mable.
+- name: Minimum agreed rate
+  description: Floor on the hourly rate agreed between client and support worker.
+  price_text: $42 per hour
+  price: 42
+  limits:
+  - Mable's minimum agreed rate is $42 per hour

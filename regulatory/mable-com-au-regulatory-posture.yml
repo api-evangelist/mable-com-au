@@ -1,0 +1,93 @@
+generated: '2026-10-22'
+method: searched
+source: https://mable.com.au/legal/policies/privacy-policy/
+pages_read:
+- url: https://mable.com.au/legal/policies/privacy-policy/
+  http_status: 200
+- url: https://mable.com.au/legal/policies/privacy-collection-notice/
+  http_status: 200
+- url: https://mable.com.au/legal/
+  http_status: 200
+- url: https://mable.com.au/legal/terms/site-terms/
+  http_status: 200
+- url: https://mable.com.au/legal/terms/platform-terms/
+  http_status: 200
+signals:
+  data_subject_request:
+    url: https://mable.com.au/legal/policies/privacy-policy/
+    section: 9. Access to your Personal Information; 10. Correction; 11. Data Retention and Deletion
+    note: Access, correction and deletion requests under the Australian Privacy Act; access may carry reasonable costs and deletion may be refused where retention is deemed reasonable. No portability right is stated.
+    evidence:
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: You can request access to the Personal Information we hold about you by contacting us using the details below.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we refuse to provide you with access to your Personal Information, we will generally provide reasons for the refusal.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: You may request deletion of your Personal Information by us, but please note that we may not delete it if we feel it is reasonable to keep the information
+  data_retention:
+    url: https://mable.com.au/legal/policies/privacy-policy/
+    section: 11. Data Retention and Deletion
+    note: Retention is purpose-limited, with no fixed periods stated; deleted data may persist in archives and may be kept for fraud protection.
+    evidence:
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Mable takes steps to ensure that it only retains Personal Information that is necessary for the purposes of delivering Platform services.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: When we delete any information, it will be deleted from the active database, but may remain in our archives.
+  data_residency:
+    url: https://mable.com.au/legal/policies/privacy-policy/
+    section: 7.4 Disclosure of Personal Information to overseas entities
+    note: States that personal information remains on Australian servers wherever possible and is not stored overseas when processed through overseas (e.g. EU) servers; it also discloses outsourcing to overseas third parties and asks for consent to cross-border transfer. It names no countries other than the EU example.
+    evidence:
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Wherever possible, Personal Information remains on our servers which are located in Australia so that providers are required to access that information via secure access to the Platform.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: In these instances, data is not stored overseas and overseas entities cannot use or disclose any Personal Information about Members.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: By providing Personal Information to us, you consent to the transfer of that Personal Information to entities located outside Australia in accordance with this Policy.
+  subprocessors:
+    url: https://mable.com.au/legal/policies/privacy-policy/
+    section: 7.3 / 7.4 Disclosure to third party service providers and overseas entities
+    note: Third-party service providers are disclosed by CATEGORY only (verification and background checks, moderation, support-call review, payments, analytics, messaging, monitoring/logging). No named subprocessor list was found on the pages read.
+    evidence:
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We take reasonable steps to ensure these third party service providers, advisers, etc do not use your Personal Information other than for the purpose for which it was provided to them by Mable.
+    - source: https://mable.com.au/legal/policies/privacy-collection-notice/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We may transfer or otherwise disclose your personal information to third parties located outside Australia, including to third parties who provide information technology and other services to us.
+  ai_transparency:
+    url: https://mable.com.au/legal/policies/privacy-policy/
+    section: 6.3 Use of Personal Information in underlying code or in connection with Artificial Intelligence Tools
+    note: Discloses use of personal information in private AI tools, bans staff from putting it into public generative AI tools, and states that no decision is fully automated (a human stays the decision maker).
+    evidence:
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Mable takes an internal policy stance prohibiting staff from transferring any Personal Information into publicly available Generative AI Tools, such as ChatGPT, Gemini (public) or Llama.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Mable does not fully automate any decisions using an AI Tool.
+    - source: https://mable.com.au/legal/policies/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Mable may use AI, or other types of technology, to assist with making decisions, such as using technology to detect potential Avoidance Conduct, but a human remains the decision maker.
+not_found: The pages read do not describe a data-breach notification commitment, a Global Privacy Control / Do Not Track response, an accessibility conformance statement, a named subprocessor list or a transparency report. The privacy policy states ISO 27001 certification, but that belongs to the trust module and is not recorded here as a signal.

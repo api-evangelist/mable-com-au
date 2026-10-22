@@ -1,0 +1,23 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/mable-com-au/integrations
+- https://zapier.com/apps/mable/integrations
+- https://n8n.io/integrations/mable-com-au/
+- https://composio.dev/toolkits/mable-com-au
+- https://monid.ai/tools/mable-com-au
+checked:
+- https://zapier.com/apps/mable/integrations (404)
+- https://www.make.com/en/integrations/mable (403, unreadable)
+- https://n8n.io/integrations/mable/ (404)
+- https://mable.com.au/ (no integrations / partners page linked)
+- https://composio.dev/toolkits/mable-com-au
+- https://monid.ai/tools/mable-com-au
+- https://n8n.io/integrations/mable-com-au/
+- https://zapier.com/apps/mable-com-au/integrations
+- https://zapier.com/apps/mable/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: No marketplace listing, integrations page or API contract found for Mable.

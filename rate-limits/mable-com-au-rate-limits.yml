@@ -1,0 +1,7 @@
+name: Mable rate limits
+generated: '2026-10-22'
+method: none
+source: https://mable.com.au/
+limit_count: 0
+limits: []
+note: Mable publishes no developer API or API documentation (checked mable.com.au site and pre-flight discovery on mable.com.au and app.mable.com.au, 2026-10-22), so no rate limits are documented.
